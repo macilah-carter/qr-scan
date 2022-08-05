@@ -1,0 +1,30 @@
+body{
+    background-color: aliceblue;
+   display: flex;
+   justify-content: center;
+}
+.main-container{
+    background-color: white;
+    height: 50%;
+    width: 20%;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10em;
+    
+}
+img{
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+h3{
+    color: rgb(31, 61, 88);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px 5px;
+}
+p{
+    color: rgb(143, 154, 163);
+    padding: 5px;
+}
