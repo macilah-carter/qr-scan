@@ -9,12 +9,13 @@ body{
     width: 20%;
     text-align: center;
     border-radius: 20px;
-    margin: 10em;
-    
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
 }
 img{
     height: 300px;
-    width: 250px;
+    width: 240px;
     border-radius: 20px;
     padding: 10px 10px;
 }
@@ -27,4 +28,21 @@ h3{
 p{
     color: rgb(143, 154, 163);
     padding: 5px;
+}
+@media screen and (man-width:500px),(max-width:900px) {
+    .main-container{
+        background-color: white;
+        height: 300px;
+        width: 260px;
+        text-align: center;
+        border-radius: 20px;
+        margin-top: 90px;
+        display: flex;
+    }
+    h3{
+        color: rgb(31, 61, 88);
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0px 5px;
+    }
 }
